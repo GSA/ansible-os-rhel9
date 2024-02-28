@@ -213,7 +213,7 @@ rhel9cis_rule_3_3_7: true
 rhel9cis_rule_3_3_8: true
 rhel9cis_rule_3_3_9: true
 rhel9cis_rule_3_4_1_1: true
-rhel9cis_rule_3_4_1_2: true
+rhel9cis_rule_3_4_1_2: false
 rhel9cis_rule_3_4_2_1: true
 rhel9cis_rule_3_4_2_2: true
 rhel9cis_rule_3_4_2_3: true

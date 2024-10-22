@@ -444,11 +444,8 @@ rhel9cis_selinux_enforce: enforcing
 ### 2.1 Time Synchronization
 #### 2.1.2 Time Synchronization servers - used in template file chrony.conf.j2
 rhel9cis_time_synchronization_servers:
-    - 0.pool.ntp.org
-    - 1.pool.ntp.org
-    - 2.pool.ntp.org
-    - 3.pool.ntp.org
-rhel9cis_chrony_server_options: "minpoll 8"
+    - 169.254.169.123
+rhel9cis_chrony_server_options: "prefer iburst minpoll 4 maxpoll 4"
 rhel9cis_chrony_server_rtcsync: false
 rhel9cis_chrony_server_makestep: "1.0 3"
 rhel9cis_chrony_server_minsources: 2
